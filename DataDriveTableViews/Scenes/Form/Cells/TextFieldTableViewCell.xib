@@ -9,13 +9,12 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="dBA-fs-Isn">
-            <rect key="frame" x="0.0" y="0.0" width="460" height="100"/>
+        <view contentMode="scaleToFill" id="dBA-fs-Isn" customClass="TextFieldTableViewCell" customModule="DataDriveTableViews" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="60"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yra-JK-leX" customClass="OutlinedTextField" customModule="DataDriveTableViews" customModuleProvider="target">
-                    <rect key="frame" x="51" y="23" width="358" height="54"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yra-JK-leX" customClass="OutlinedTextField" customModule="DataDriveTableViews" customModuleProvider="target">
+                    <rect key="frame" x="8" y="8" width="284" height="44"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
@@ -24,16 +23,24 @@
                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                             <real key="value" value="5"/>
                         </userDefinedRuntimeAttribute>
-                        <userDefinedRuntimeAttribute type="string" keyPath="placeholderText" value="Nombre"/>
                     </userDefinedRuntimeAttributes>
                 </view>
             </subviews>
             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="Yra-JK-leX" firstAttribute="leading" secondItem="S7L-WN-dSo" secondAttribute="leading" constant="8" id="dka-R5-v0p"/>
+                <constraint firstItem="S7L-WN-dSo" firstAttribute="trailing" secondItem="Yra-JK-leX" secondAttribute="trailing" constant="8" id="fRq-4j-5OF"/>
+                <constraint firstItem="S7L-WN-dSo" firstAttribute="bottom" secondItem="Yra-JK-leX" secondAttribute="bottom" constant="8" id="mZV-yu-Vvr"/>
+                <constraint firstItem="Yra-JK-leX" firstAttribute="top" secondItem="S7L-WN-dSo" secondAttribute="top" constant="8" id="oUJ-uB-Xcn"/>
+            </constraints>
             <nil key="simulatedTopBarMetrics"/>
             <nil key="simulatedBottomBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="S7L-WN-dSo"/>
-            <point key="canvasLocation" x="-897.60000000000002" y="-584.70764617691157"/>
+            <connections>
+                <outlet property="textField" destination="Yra-JK-leX" id="ZuE-oy-s4m"/>
+            </connections>
+            <point key="canvasLocation" x="-919.20000000000005" y="-565.81709145427294"/>
         </view>
     </objects>
 </document>

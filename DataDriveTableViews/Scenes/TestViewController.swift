@@ -16,12 +16,12 @@ final class TestViewController: UIViewController {
     }
     
     private func setupTable() {
-        let section0 = Section(items: ["A", "B", "C"])
+        let section0 = Section(items: ["Nombre", "Apellido", "Teléfono"])
         let section1 = Section(items: ["1", "2", "3"])
         let dataSource = DataSource(sections: [section0, section1])
 
-        let configurator = Configurator { (cell, model: String, tableView, indexPath) -> UITableViewCell in
-            cell.textLabel?.text = model
+        let configurator = Configurator { (cell, model: String, tableView, indexPath) -> TextFieldTableViewCell in
+            cell.textField.placeholderText = model
             return cell
         }
         

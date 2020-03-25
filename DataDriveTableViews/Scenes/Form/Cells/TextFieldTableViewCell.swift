@@ -6,4 +6,14 @@
 //  Copyright © 2020 Walmart. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+final class TextFieldTableViewCell: UITableViewCell {
+    
+    @IBOutlet weak var textField: OutlinedTextField!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+    }
+    
+}

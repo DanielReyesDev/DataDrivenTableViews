@@ -18,10 +18,17 @@
 		6801ED86242BF3A90012EC08 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6801ED85242BF3A90012EC08 /* DataSource.swift */; };
 		6801ED88242BF3B10012EC08 /* ConfiguratorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6801ED87242BF3B10012EC08 /* ConfiguratorType.swift */; };
 		6801ED8A242BF3BA0012EC08 /* Configurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6801ED89242BF3BA0012EC08 /* Configurator.swift */; };
-		6801ED8D242BF5620012EC08 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6801ED8C242BF5620012EC08 /* TestViewController.swift */; };
+		6801ED8D242BF5620012EC08 /* CheckoutFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6801ED8C242BF5620012EC08 /* CheckoutFormViewController.swift */; };
 		6801ED91242BF9240012EC08 /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6801ED90242BF9240012EC08 /* TextFieldTableViewCell.swift */; };
 		6801ED93242BF9550012EC08 /* TextFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6801ED92242BF9550012EC08 /* TextFieldTableViewCell.xib */; };
 		6801ED96242BFB230012EC08 /* OutlinedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6801ED95242BFB230012EC08 /* OutlinedTextField.swift */; };
+		6801ED99242CF8B50012EC08 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6801ED98242CF8B50012EC08 /* UIViewController+Extensions.swift */; };
+		6801ED9B242CF9900012EC08 /* TitledTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6801ED9A242CF9900012EC08 /* TitledTableViewCell.xib */; };
+		6801ED9D242CF99B0012EC08 /* TitledTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6801ED9C242CF99B0012EC08 /* TitledTableViewCell.swift */; };
+		6801EDA3242D04C30012EC08 /* TextFieldCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6801EDA2242D04C30012EC08 /* TextFieldCellModel.swift */; };
+		6801EDA5242D04CE0012EC08 /* TitledCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6801EDA4242D04CE0012EC08 /* TitledCellModel.swift */; };
+		6801EDA7242D04F00012EC08 /* CheckOutFormCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6801EDA6242D04F00012EC08 /* CheckOutFormCell.swift */; };
+		6801EDA9242D055D0012EC08 /* CheckOutFormConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6801EDA8242D055D0012EC08 /* CheckOutFormConfigurator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,10 +66,17 @@
 		6801ED85242BF3A90012EC08 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		6801ED87242BF3B10012EC08 /* ConfiguratorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfiguratorType.swift; sourceTree = "<group>"; };
 		6801ED89242BF3BA0012EC08 /* Configurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configurator.swift; sourceTree = "<group>"; };
-		6801ED8C242BF5620012EC08 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		6801ED8C242BF5620012EC08 /* CheckoutFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutFormViewController.swift; sourceTree = "<group>"; };
 		6801ED90242BF9240012EC08 /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
 		6801ED92242BF9550012EC08 /* TextFieldTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldTableViewCell.xib; sourceTree = "<group>"; };
 		6801ED95242BFB230012EC08 /* OutlinedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlinedTextField.swift; sourceTree = "<group>"; };
+		6801ED98242CF8B50012EC08 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		6801ED9A242CF9900012EC08 /* TitledTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitledTableViewCell.xib; sourceTree = "<group>"; };
+		6801ED9C242CF99B0012EC08 /* TitledTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitledTableViewCell.swift; sourceTree = "<group>"; };
+		6801EDA2242D04C30012EC08 /* TextFieldCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCellModel.swift; sourceTree = "<group>"; };
+		6801EDA4242D04CE0012EC08 /* TitledCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitledCellModel.swift; sourceTree = "<group>"; };
+		6801EDA6242D04F00012EC08 /* CheckOutFormCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutFormCell.swift; sourceTree = "<group>"; };
+		6801EDA8242D055D0012EC08 /* CheckOutFormConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutFormConfigurator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,12 +127,13 @@
 		6801ED4E242BEFD90012EC08 /* DataDriveTableViews */ = {
 			isa = PBXGroup;
 			children = (
+				6801ED97242CF8A70012EC08 /* Utils */,
 				6801ED4F242BEFD90012EC08 /* AppDelegate.swift */,
 				6801ED51242BEFD90012EC08 /* SceneDelegate.swift */,
 				6801ED94242BFAFF0012EC08 /* Reusable Views */,
-				6801ED7F242BF3020012EC08 /* TableView Configurator */,
+				6801EDAC242D062A0012EC08 /* Form */,
 				6801ED8B242BF4420012EC08 /* Scenes */,
-				6801ED80242BF3130012EC08 /* Assets */,
+				6801ED80242BF3130012EC08 /* Supporting Files */,
 			);
 			path = DataDriveTableViews;
 			sourceTree = "<group>";
@@ -152,39 +167,39 @@
 			path = "TableView Configurator";
 			sourceTree = "<group>";
 		};
-		6801ED80242BF3130012EC08 /* Assets */ = {
+		6801ED80242BF3130012EC08 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				6801ED58242BEFDC0012EC08 /* Assets.xcassets */,
 				6801ED5A242BEFDC0012EC08 /* LaunchScreen.storyboard */,
 				6801ED5D242BEFDC0012EC08 /* Info.plist */,
 			);
-			name = Assets;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		6801ED8B242BF4420012EC08 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				6801ED8E242BF7AB0012EC08 /* Form */,
-				6801ED8C242BF5620012EC08 /* TestViewController.swift */,
+				6801ED8E242BF7AB0012EC08 /* CheckOutForm */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
 		};
-		6801ED8E242BF7AB0012EC08 /* Form */ = {
+		6801ED8E242BF7AB0012EC08 /* CheckOutForm */ = {
 			isa = PBXGroup;
 			children = (
-				6801ED8F242BF7B10012EC08 /* Cells */,
-				6801ED81242BF3960012EC08 /* FormTableViewController.swift */,
+				6801EDA6242D04F00012EC08 /* CheckOutFormCell.swift */,
+				6801EDA8242D055D0012EC08 /* CheckOutFormConfigurator.swift */,
+				6801ED8C242BF5620012EC08 /* CheckoutFormViewController.swift */,
 			);
-			path = Form;
+			path = CheckOutForm;
 			sourceTree = "<group>";
 		};
 		6801ED8F242BF7B10012EC08 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				6801ED90242BF9240012EC08 /* TextFieldTableViewCell.swift */,
-				6801ED92242BF9550012EC08 /* TextFieldTableViewCell.xib */,
+				6801EDAA242D05D90012EC08 /* TextFieldCell */,
+				6801EDAB242D05EA0012EC08 /* TitledCell */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -195,6 +210,44 @@
 				6801ED95242BFB230012EC08 /* OutlinedTextField.swift */,
 			);
 			path = "Reusable Views";
+			sourceTree = "<group>";
+		};
+		6801ED97242CF8A70012EC08 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6801ED98242CF8B50012EC08 /* UIViewController+Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6801EDAA242D05D90012EC08 /* TextFieldCell */ = {
+			isa = PBXGroup;
+			children = (
+				6801ED92242BF9550012EC08 /* TextFieldTableViewCell.xib */,
+				6801ED90242BF9240012EC08 /* TextFieldTableViewCell.swift */,
+				6801EDA2242D04C30012EC08 /* TextFieldCellModel.swift */,
+			);
+			path = TextFieldCell;
+			sourceTree = "<group>";
+		};
+		6801EDAB242D05EA0012EC08 /* TitledCell */ = {
+			isa = PBXGroup;
+			children = (
+				6801ED9A242CF9900012EC08 /* TitledTableViewCell.xib */,
+				6801ED9C242CF99B0012EC08 /* TitledTableViewCell.swift */,
+				6801EDA4242D04CE0012EC08 /* TitledCellModel.swift */,
+			);
+			path = TitledCell;
+			sourceTree = "<group>";
+		};
+		6801EDAC242D062A0012EC08 /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				6801ED8F242BF7B10012EC08 /* Cells */,
+				6801ED7F242BF3020012EC08 /* TableView Configurator */,
+				6801ED81242BF3960012EC08 /* FormTableViewController.swift */,
+			);
+			path = Form;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6801ED5C242BEFDC0012EC08 /* LaunchScreen.storyboard in Resources */,
+				6801ED9B242CF9900012EC08 /* TitledTableViewCell.xib in Resources */,
 				6801ED93242BF9550012EC08 /* TextFieldTableViewCell.xib in Resources */,
 				6801ED59242BEFDC0012EC08 /* Assets.xcassets in Resources */,
 			);
@@ -329,15 +383,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				6801ED8A242BF3BA0012EC08 /* Configurator.swift in Sources */,
+				6801EDA9242D055D0012EC08 /* CheckOutFormConfigurator.swift in Sources */,
+				6801EDA5242D04CE0012EC08 /* TitledCellModel.swift in Sources */,
 				6801ED86242BF3A90012EC08 /* DataSource.swift in Sources */,
-				6801ED8D242BF5620012EC08 /* TestViewController.swift in Sources */,
+				6801ED8D242BF5620012EC08 /* CheckoutFormViewController.swift in Sources */,
 				6801ED96242BFB230012EC08 /* OutlinedTextField.swift in Sources */,
 				6801ED88242BF3B10012EC08 /* ConfiguratorType.swift in Sources */,
 				6801ED84242BF39F0012EC08 /* Section.swift in Sources */,
+				6801ED99242CF8B50012EC08 /* UIViewController+Extensions.swift in Sources */,
+				6801EDA3242D04C30012EC08 /* TextFieldCellModel.swift in Sources */,
 				6801ED82242BF3960012EC08 /* FormTableViewController.swift in Sources */,
 				6801ED91242BF9240012EC08 /* TextFieldTableViewCell.swift in Sources */,
+				6801ED9D242CF99B0012EC08 /* TitledTableViewCell.swift in Sources */,
 				6801ED50242BEFD90012EC08 /* AppDelegate.swift in Sources */,
 				6801ED52242BEFD90012EC08 /* SceneDelegate.swift in Sources */,
+				6801EDA7242D04F00012EC08 /* CheckOutFormCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

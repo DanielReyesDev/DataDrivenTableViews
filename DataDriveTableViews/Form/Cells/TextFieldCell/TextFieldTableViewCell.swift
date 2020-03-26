@@ -23,7 +23,7 @@ final class TextFieldTableViewCell: UITableViewCell {
         textField.delegate = self
     }
     
-    func configure(model: TextFieldCellModel, delegate:  TextFieldTableViewCellDelegate?) {
+    func configure(model: TextFieldCellModel, delegate: TextFieldTableViewCellDelegate?) {
         self.delegate = delegate
         textField.placeholderText = model.placeHolder
         textField.text = model.text

@@ -29,6 +29,7 @@ final class CheckoutFormViewController: UIViewController {
         }
         
         let textFieldCellConfigurator = Configurator { [weak self] (cell, model: TextFieldCellModel, tableView, indexPath) -> TextFieldTableViewCell in
+            
             cell.configure(model: model, delegate: self)
             return cell
         }
